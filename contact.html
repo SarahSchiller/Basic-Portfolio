@@ -1,68 +1,98 @@
 <!DOCTYPE html>
-<html>
 
-<head>
-    
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sarah Schiller</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+    <head>
 
-</head>
+        <meta charset="utf-8">
+        <title>Sarah Schiller</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        
 
-<body>
+    </head>
 
-    <header class="heading-main">
+    <body>
 
-        <h1>Sarah Schiller</h1>
-                
-    </header>
+        <div class="container-main">
+
+            <div class="container-heading">
+              
+                <div class="heading-main">
+
+                    <h1>Sarah Schiller</h1>
             
-    <div>
+                </div>
+
+            <div class="menu">
+
     
-        <nav class="menu">
-        
-            <ul>
-        
-                <li><a class="nav-menu" href="#" target=" blank">About</a></li>
-                <li><a class="nav-menu" href="#" target=" blank">Portfolio</a></li>
-                <li><a class="nav-menu" href="#" target=" blank">Contact</a></li>
-        
-            </ul>
-        
-        </nav>
-        
-    </div>  
-   
-    <form action="/my-contact-submission-form-page" method="post">
-
-        <div>
-            <label for="name">Name:</label>
-
-            <input type="text" id="name" name="user_name">
-
-        </div>
-              
-        <div>
-
-            <label for="mail">E-mail:</label>
-
-            <input type="email" id="mail" name="user_mail">
-
-        </div>
-              
-        <div>
-                
-            <label for="msg">Message:</label>
-                
-            <textarea id="msg" name="user_message"></textarea>
-              
-        </div>
+                    <ul>
     
-    </form>
+                        <li><a class="nav-menu" href="https://github.com/SarahSchiller" target=" blank">About</a></li>
+                        <li><a class="nav-menu" href="https://github.com/SarahSchiller?tab=repositories" target=" blank">Portfolio</a></li>
+                        <li><a class="nav-menu" href="mailto:sarah.schiller@outlook.com" target=" blank">Contact</a></li>
+    
+                    </ul>
+    
+            </div>  
+          
+          </div>
 
-</body>
+        
+            <div class="main-form">
+
+                <div class="subtitle">
+
+                    <h2>Contact</h2>
+
+                </div>
+
+                <hr class="line">
+
+                <form action="/my-contact-submission-form-page" method="post">
+
+                    <div>
+
+                        <label for="name">Name:</label>
+        
+                        <input type="text" class="name" name="user_name" placeholder="Your name here">
+                       
+                    </div>
+                      
+                    <div>
+        
+                        <label for="mail">E-mail:</label>
+        
+                        <input type="email" class="mail" name="user_mail" placeholder="example@gmail.com">
+        
+                    </div>
+                      
+                    <div>
+                        
+                        <label for="msg">Message:</label>
+                        
+                        <textarea class="msg" name="user_message"></textarea>
+                      
+                    </div>
+                    
+                    
+                </form>
+                
+
+            </div>
+            
+
+            <div class="submit-button">
+
+                <input type="submit" value="Submit">
+
+            </div>
+            
+        </div>
+        
+        <footer>Copyright ©</footer>
+
+    </body>
 
 </html>
+
+
+
