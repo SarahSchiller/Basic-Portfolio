@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/qbkls/qbkls.png);
+}
+
+.container-heading {
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+.heading-main {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: white;
+    width: 240px;
+    padding: 3px;
+    text-align: center;
+}
+
+.heading-sub {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: white;
+    color:  #4aaaa5;
+    padding-top: auto;
+    padding-left: 5px;
+    /*why doesn't this border show up?*/
+    border-bottom: border-bottom: 1px solid #cccccc;
+}
+
+.profile-img {
+    width: 240px;
+    float: left;
+    margin: 0px 6px 6px 6px;
+}
+
+ul { 
+    list-style-type: none; 
+}
+
+nav {
+    float: right;
+    padding-right: 10px;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-right: 5px;
+    padding-top: 50%;
+    padding-bottom: 50
+}
+
+.nav-menu {
+    color: #777777;
+    text-decoration: none;
+}
+
+.container-main {
+    
+    align-content: center;
+    width: 960px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.main-bio {
+    border-top: 1px solid #dddddd;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    font-size: 20%;
+    border-top: 3px solid #4aaaa5;
+}
